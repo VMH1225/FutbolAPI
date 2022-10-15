@@ -1,0 +1,83 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+figure{
+  width: 700px;
+  height: 450px;
+  margin: 0;
+  background-color: turquoise;
+}
+video{
+  max-width: 100%;
+}
+
+section{
+  display: flex;
+  background: linear-gradient(to bottom right, blue, red);
+  width: 700px;
+  justify-content: space-around;
+}
+
+h2{
+  width: 300px;
+  height: 100px;
+  padding: 5px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+span{
+    align-self: flex-end;
+    color: white;
+
+}
+
+.team1{
+  background-color: red;
+}
+
+.team2{
+  background-color: blue;
+}
